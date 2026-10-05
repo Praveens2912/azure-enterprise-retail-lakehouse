@@ -1,6 +1,22 @@
 # Enterprise Retail Lakehouse
 # OrderDetails - Bronze to Silver
 
+
+# Purpose:
+# Read raw OrderDetails data from ADLS Gen2 Bronze,
+# standardize data types, apply data quality rules,
+# quarantine invalid records, and write valid records
+# to the Silver Delta layer.
+#
+# Expected Result:
+# Bronze records      = 250,000
+# Duplicate records  = 1
+# Invalid Quantity   = 1
+# Invalid UnitPrice  = 1
+# Invalid ProductID  = 1
+# Quarantine records = 4
+# Silver records     = 249,996
+
 from pyspark.sql import functions as F
 from pyspark.sql.types import DecimalType
 from pyspark.sql.window import Window
