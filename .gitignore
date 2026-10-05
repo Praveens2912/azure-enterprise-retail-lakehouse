@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Databricks
+.databricks/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+.env
+*.key
+*.pem
+secrets/
+credentials/
+
+# Temporary files
+*.tmp
+*.log
