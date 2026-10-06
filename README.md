@@ -1,5 +1,11 @@
 # Enterprise Retail Data Lakehouse & Analytics Platform on Azure
 
+<p align="center">
+  <img src="./azure-retail-lakehouse-pipeline.png"
+       alt="End-to-End Azure Retail Lakehouse Pipeline"
+       width="100%">
+</p>
+
 ## Overview
 
 An end-to-end enterprise-style retail data engineering platform built on Microsoft Azure.
